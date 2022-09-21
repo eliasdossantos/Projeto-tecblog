@@ -48,6 +48,14 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     background: white;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.conteudo-lateral-menu{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
 }
 
 .postagem-lateral{
