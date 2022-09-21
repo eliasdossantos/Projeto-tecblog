@@ -1,2 +1,2 @@
-# Projeto do site tecblog curso
+# Projeto do site tecblog
 Site tecblog simples com HTML e CSS.
