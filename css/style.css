@@ -14,12 +14,12 @@ body{
 /* layout */
 #area-cabecalho{
     background: orange;
-    padding: 15px;
+    padding: 8px;
     text-align: center;
 }
 
 #area-logo, #area-menu{
-    padding: 10px;
+    padding: 9px;
 }
 
 #area-principal{
@@ -42,12 +42,14 @@ body{
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+    border-radius:10px 70px 10px 10px;
 }
 
 .conteudo-lateral{
     padding: 10px;
     margin-bottom: 10px;
     background: white;
+    border-radius: 15px;
     height: 300px;
     overflow-y: scroll;
 }
@@ -65,19 +67,20 @@ body{
 ::-webkit-scrollbar-thumb {
     background: orange;
     border: 2px solid #ccc;
-    border-radius: 15px;
+    border-radius:20px 70px;
 }
 
 .conteudo-lateral-menu{
     padding: 10px;
     margin-bottom: 10px;
     background: white;
+    border-radius: 15px;
 }
 
 .postagem-lateral{
     font-size: 0.8em;
     padding: 10px;
-    border-bottom: 3px dotted rgb(158, 158, 158);
+    border-bottom: 5px dashed grey;
 }
 
 #rodape{
@@ -102,14 +105,14 @@ text-decoration: underline;
 
 #area-cabecalho a:link, #area-cabecalho a:visited{
     color: #FFF;
-    margin: 8px 12px;
+    margin: 9px 14px;
 }
 
 #area-cabecalho a:hover{
     color: orange;
     background: #FFF;
-    padding: 5px 10px;
-    border-radius: 13px;
+    padding: 8px 12px;
+    border-radius: 5px 40px 10px 5px;
     text-decoration: none;
 }
 
