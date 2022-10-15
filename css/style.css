@@ -112,8 +112,12 @@ text-decoration: underline;
     color: orange;
     background: #FFF;
     padding: 8px 12px;
-    border-radius: 5px 40px 10px 5px;
+    border-radius: 5px 35px 5px 35px;
     text-decoration: none;
+}
+
+#area-menu a:hover{
+    color: black;
 }
 
 /* formatação geral */
